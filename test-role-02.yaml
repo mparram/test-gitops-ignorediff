@@ -10,6 +10,6 @@ rules:
       - watch
       - list
     apiGroups:
-      - x
+      - y
     resources:
       - z

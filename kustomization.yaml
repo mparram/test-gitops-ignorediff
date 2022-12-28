@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - test-role-aggr.yaml
 - test-role-01.yaml
+- test-role-02.yaml

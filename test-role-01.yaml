@@ -1,0 +1,15 @@
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: test-role-01
+  labels:
+    rbac.rciots.com/aggregate-to-test-role-aggr: 'true'
+rules:
+  - verbs:
+      - get
+      - watch
+      - list
+    apiGroups:
+      - foo
+    resources:
+      - bar
